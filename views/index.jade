@@ -1,5 +1,10 @@
 extends layout
 
 block content
-  h1= title
+  h1.header= title
   p Welcome to #{title}
+  .container
+    .row.justify-content-center
+      .d-inline-flex.flex-column
+        button.btn.btn-secondary LIGHT ON
+        button.btn.btn-secondary LIGHT OFF
